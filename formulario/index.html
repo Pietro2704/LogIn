@@ -5,6 +5,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./style/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
   <title>LogIn</title>
 </head>
 <body>
@@ -15,14 +18,16 @@
       <label for="email">Seu e-mail:</label>
       <br>
       <input type="email" name="" class="inputs" placeholder="exemplo@exemplo.com.br">
-      <br>
+      <br><br>
       <label for="senha">Sua senha:</label>
       <br>
-      <input type="password" name="" class="inputs" placeholder="Senha:">
-      <br>
-      <a href="#">Esqueceu a senha?</a>
-      <br>
-      <input type="submit" id="submit" value="Logar">
+      <input id="inp" type="password" name="" class="inputs" placeholder="Senha:">
+      
+      <div class="forget-password">
+        <a href="#">Esqueceu a senha?</a>
+        <input type="submit" id="submit" value="Logar" class="btn">
+      </div>
+      
     </form>
     <footer>
       <p>Ainda não possui uma conta?</p>
