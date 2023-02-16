@@ -85,13 +85,10 @@ label{
   border-radius: 12px;
 }
 
-#inp{
-  margin-bottom: 22px;
-}
-
 .forget-password{
   display: flex;
   justify-content: center;
+  margin-top: 15px;
   gap: 20px;
 }
 
