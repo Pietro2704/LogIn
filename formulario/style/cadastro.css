@@ -35,7 +35,7 @@ body{
   background-color: white;
 
   width: 800px;
-  max-height: 90vh;
+  max-height: 100%;
 
   margin: auto;
   margin-inline: 10px;
@@ -70,7 +70,46 @@ form{
   padding: 20px;
 
   margin: auto;
+  height: fit-content;
   width: 65%;
+}
+
+.inputs{
+  width: 95%;
+  height: 30px;
+
+  border: none;
+  border-radius: 12px;
+
+  margin-top: 5px;
+  margin-bottom: 16px;
+  margin-left: 0px;
+  padding: 5px;
+}
+
+#submit{
+  margin: auto;
+  margin-top: 16px;
+  padding: 6px;
+
+  width: 50%;
+  height: 50px;
+
+  border: none;
+  border-radius: 8px;
+
+  font-weight: normal;
+  font-size: 1em;
+
+  background-color: var(--cor-8);
+  color: var(--cor-1);
+
+  cursor: pointer;
+}
+
+#submit:hover{
+  background-color: var(--cor-5);
+  color: var(--cor-10);
 }
 
 footer{
