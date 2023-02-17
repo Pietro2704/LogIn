@@ -96,12 +96,9 @@ label{
   align-self: center;
   width: 250px;
 
-  color: var(--cor-9);
+
 }
 
-a:hover{
-  color: var(--cor-0);
-}
 
 .btn{
   margin: 10px;
@@ -157,8 +154,13 @@ footer > button{
   color: var(--cor-9);
 }
 
-button:hover{
+footer > button:hover{
   cursor: pointer;
-  background-image: linear-gradient(to right, var(--cor-3), var(--cor-5));
+  background-image: linear-gradient(to right, var(--cor-3), var(--cor-4));
   color: var(--cor-8);
+}
+
+button > a{
+  text-decoration: none;
+  color: black;
 }
