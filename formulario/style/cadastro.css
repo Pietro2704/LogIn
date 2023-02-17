@@ -149,3 +149,8 @@ button:hover{
   background-image: linear-gradient(to right, var(--cor-3), var(--cor-5));
   color: var(--cor-8);
 }
+
+button > a{
+  text-decoration: none;
+  color: black;
+}
