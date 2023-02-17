@@ -88,13 +88,19 @@ label{
 .forget-password{
   display: flex;
   justify-content: center;
-  margin-top: 15px;
+  margin-top: 10px;
   gap: 20px;
 }
 
 .forget-password > a{
   align-self: center;
   width: 250px;
+
+  color: var(--cor-9);
+}
+
+a:hover{
+  color: var(--cor-0);
 }
 
 .btn{
